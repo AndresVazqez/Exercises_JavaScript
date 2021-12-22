@@ -25,8 +25,10 @@ console.log(pointsList12);
 
 const toy1 = {name: 'Bus laiyiar', date: '20-30-1995', color: 'multicolor'};
 const toyUpdate = {lights: 'rgb', power: ['Volar like a dragon', 'MoonWalk']}
-
+const prueba = ['hola',"perro", "Gato"];
 const toyFusion = {...toy1, ...toyUpdate};
+
+const pruebaFusion = [...prueba, {...toy1}]
 
 console.log(toyFusion);
 
@@ -39,3 +41,4 @@ const colorsCopy = [...colors];
 
 colorsCopy.splice(2,1);
 console.log(colorsCopy);
+

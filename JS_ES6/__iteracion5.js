@@ -109,6 +109,5 @@ const search = () => {
 		streamer.name.toLocaleLowerCase().includes(input1$$.value.toLowerCase()));
 		console.log(streamerBt);
 }
-const btn$$ = document.querySelector('button'); 
-/*Yo quiero el boton data-function="toShowFilterStreamers"*/
+const btn$$ = document.querySelector('[data-function="toShowFilterStreamers"]'); 
 btn$$.addEventListener("click", search);
