@@ -8,12 +8,11 @@ const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
 
 function averageWord(mixedElements) {
 let sum = 0;
-  for (i = 0; i < mixedElements.length; i++){    
-      if ( mixedElements[i] === String ){        
+  for (let i = 0; i < mixedElements.length; i++){    
+      if (typeof mixedElements[i] === "string" ){        
         sum += mixedElements[i].length;        
       }      
-  }
-  
+  }  
   return console.log(sum);
 }
 

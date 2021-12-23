@@ -3,4 +3,4 @@ const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lap
 
 rickAndMortyCharacters.pop();
 
-console.log(rickAndMortyCharacters[4]);
+console.log(rickAndMortyCharacters[0],rickAndMortyCharacters[4] );
